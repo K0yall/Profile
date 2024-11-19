@@ -1,0 +1,108 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #2c3e50, #34495e); /* Gradiente escuro em tons de azul */
+    color: #ecf0f1; /* Branco gelo para contraste */
+    text-align: center;
+}
+
+.header-content {
+    padding: 20px;
+    background: #2c3e50; /* Azul escuro */
+    border-bottom: 2px solid #1a252f; /* Azul muito escuro */
+    border-radius: 0 0 12px 12px;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ecf0f1; /* Branco gelo */
+}
+
+.header-content p {
+    font-size: 1.2em;
+    color: #bdc3c7; /* Cinza claro */
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #3498db; /* Azul claro */
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    color: #2980b9; /* Azul mais escuro */
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3498db; /* Azul claro */
+    font-size: 1.2em;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #2980b9; /* Azul mais escuro */
+}
+
+section {
+    padding: 20px;
+    background: #34495e; /* Azul escuro */
+    border-radius: 12px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+section h2 {
+    font-size: 2em;
+    color: #ecf0f1; /* Branco gelo */
+}
+
+.tech-list {
+    text-align: left;
+}
+
+.tech-item {
+    margin: 15px 0;
+    padding: 15px;
+    background: #2c3e50; /* Azul escuro */
+    color: #ecf0f1; /* Branco gelo */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.tech-item h3 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+
+.tech-item p {
+    margin: 0;
+    font-size: 1em;
+}
+
+footer {
+    padding: 10px;
+    background: #2c3e50; /* Azul escuro */
+    border-top: 2px solid #1a252f; /* Azul muito escuro */
+    border-radius: 12px 12px 0 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #bdc3c7; /* Cinza claro */
+}
